@@ -9,11 +9,11 @@
  */
  int func(int number){
     if(number>0){
-        print(number+1);
+        return (number+1);
     }
-    
+
     if(number<0){
-        print(number);
+        return (number);
     }
  }
 void main() {
