@@ -7,4 +7,14 @@
     Returns:
         a: a increased by 1 if positive, else decreased by 2.*/
 
-void main() {}
+int func(int number){
+    if(number>0){
+        print(number+1);
+    }
+    if(number<0){
+        print(number-2);
+    }
+ }
+void main() {
+    print(func(-1));
+}
