@@ -9,12 +9,12 @@
 
 int func(int number){
     if(number>0){
-        print(number+1);
+        return (number+1);
     }
     if(number<0){
-        print(number-2);
+        return (number-2);
     }
  }
 void main() {
-    print(func(-1));
+    return (func(-1));
 }
