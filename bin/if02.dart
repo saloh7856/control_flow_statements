@@ -14,7 +14,8 @@ int func(int number){
     if(number<0){
         return (number-2);
     }
- }
+
+    }
 void main() {
     return (func(-1));
 }
