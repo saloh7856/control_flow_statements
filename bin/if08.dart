@@ -14,18 +14,18 @@
 String func(int number){
     if(number~/100==0){
       if(number%2==0){
-        return 'two-digit odd number';
+        return 'two-digit even number';
       }
       if(number%2>0){
-        return 'two-digit even number ';
+        return 'two-digit odd number ';
       }
     }
     if(number~/100>0){
         if(number%2==0){
-        return 'three-digit odd number';
+        return 'three-digit even number';
       }
       if(number%2>0){
-        return 'three-digit even number ';
+        return 'three-digit odd number ';
       }
     }
 
