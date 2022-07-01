@@ -12,7 +12,7 @@
         string: the message to print */
 
 String func(int number){
-    if(number>0){
+    if(number%2==0){
       if(number~/100==0){
         return 'two-digit odd number';
       }
@@ -20,7 +20,7 @@ String func(int number){
         return 'three-digit odd number ';
       }
     }
-    if(number<0){
+    if(number%2>0){
         if(number~/100==0){
         return 'two-digit even number';
       }
@@ -31,6 +31,6 @@ String func(int number){
 
 }
 void main(){
-    print(func(111));
+    print(func(45));
 }
 
