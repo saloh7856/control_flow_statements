@@ -17,7 +17,7 @@ String func(int number){
         return 'two-digit even number';
       }
       if(number%2>0){
-        return 'two-digit odd number ';
+        return 'two-digit odd number';
       }
     }
     if(number~/100>0){
@@ -25,7 +25,7 @@ String func(int number){
         return 'three-digit even number';
       }
       if(number%2>0){
-        return 'three-digit odd number ';
+        return 'three-digit odd number';
       }
     }
 
