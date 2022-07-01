@@ -10,15 +10,16 @@
     Returns:
         boolean: True if the resulting number is less than or equal to the old number, otherwise return False. */
 
-String func(int number){
-    if(number>=(number%10*10+number~/10)){
-        return 'true'; 
-
-    }
-    if(number<(number%10*10+number~/10)){
-        return 'false';
-    }
+bool func(int number){
+    int y;
+    y=((number%10)*10+number~/10);
+     if(number>=y){
+         return true; 
+     }
+     if(number<y){
+      return false;
+     }
 }
 void main(){
-    print(func(45));
+    print(func(48));
 }
