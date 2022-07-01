@@ -12,25 +12,25 @@
         string: the message to print */
 
 String func(int number){
-    if(number%2==0){
-      if(number~/100==0){
+    if(number~/100==0){
+      if(number%2==0){
         return 'two-digit odd number';
       }
-      if(number~/100>0){
-        return 'three-digit odd number ';
+      if(number%2>0){
+        return 'two-digit even number ';
       }
     }
-    if(number%2>0){
-        if(number~/100==0){
-        return 'two-digit even number';
+    if(number~/100>0){
+        if(number%2==0){
+        return 'three-digit odd number';
       }
-      if(number~/100>0){
+      if(number%2>0){
         return 'three-digit even number ';
       }
     }
 
 }
 void main(){
-    print(func(45));
+    print(func(400));
 }
 
